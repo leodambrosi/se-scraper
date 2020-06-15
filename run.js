@@ -57,7 +57,7 @@ let browser_config = {
         //     num: 100, // Determines the number of results to show, defaults to 10. Maximum is 100.
         // },
         // instead of keywords you can specify a keyword_file. this overwrites the keywords array
-        keyword_file: 'file-iab_en.txt',
+        keyword_file: './file-iab_en.txt',
         // how long to sleep between requests. a random sleep interval within the range [a,b]
         // is drawn before every request. empty string for no sleeping.
         sleep_range: '',
