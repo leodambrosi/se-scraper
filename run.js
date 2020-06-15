@@ -62,7 +62,7 @@ let browser_config = {
         // is drawn before every request. empty string for no sleeping.
         sleep_range: '',
         // path to output file, data will be stored in JSON
-        output_file: 'results/results.json',
+        output_file: 'results',
         // whether to prevent images, css, fonts from being loaded
         // will speed up scraping a great deal
         block_assets: false,
