@@ -47,7 +47,7 @@ let browser_config = {
         // an array of keywords to scrape
         keywords: ['cloud service'],
         // the number of pages to scrape for each keyword
-        num_pages: 1,
+        num_pages: 10,
 
         // OPTIONAL PARAMS BELOW:
         // google_settings: {
@@ -57,12 +57,12 @@ let browser_config = {
         //     num: 100, // Determines the number of results to show, defaults to 10. Maximum is 100.
         // },
         // instead of keywords you can specify a keyword_file. this overwrites the keywords array
-        keyword_file: '',
+        keyword_file: 'file-iab_en.txt',
         // how long to sleep between requests. a random sleep interval within the range [a,b]
         // is drawn before every request. empty string for no sleeping.
         sleep_range: '',
         // path to output file, data will be stored in JSON
-        output_file: '',
+        output_file: 'results',
         // whether to prevent images, css, fonts from being loaded
         // will speed up scraping a great deal
         block_assets: false,
