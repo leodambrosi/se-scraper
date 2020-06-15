@@ -8,7 +8,7 @@ let browser_config = {
     // if random_user_agent is set to True, a random user agent is chosen
     random_user_agent: false,
     // whether to start the browser in headless mode
-    headless: false,
+    headless: true,
     // whether debug information should be printed
     // level 0: print nothing
     // level 1: print most important info
@@ -16,7 +16,7 @@ let browser_config = {
     // level 4: print all shit nobody wants to know
     debug_level: 1,
     // specify flags passed to chrome here
-    chrome_flags: [],
+    chrome_flags: ['--no-sandbox'],
     // path to js module that extends functionality
     // this module should export the functions:
     // get_browser, handle_metadata, close_browser
